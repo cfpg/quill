@@ -22,6 +22,7 @@ import Underline from './formats/underline';
 
 import Image from './formats/image';
 import Video from './formats/video';
+import OEmbed from './formats/oembed';
 
 import CodeBlock, { Code as InlineCode } from './formats/code';
 
@@ -83,6 +84,7 @@ Quill.register({
 
   'formats/image': Image,
   'formats/video': Video,
+  'formats/oembed': OEmbed,
 
   'formats/list/item': ListItem,
 
